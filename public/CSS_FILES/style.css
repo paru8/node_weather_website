@@ -1,0 +1,42 @@
+body {
+    color: rebeccapurple;
+    font-family: blue;
+    
+    width: 650px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}      
+
+header {
+
+    color: green;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    background-color: black;
+
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+header a {
+    color: greenyellow;
+    margin-top: 10px;
+    margin-bottom: 10000px;
+    padding: 20px;
+}
+
+footer {
+    background: rgb(190, 190, 224);
+    color:blanchedalmond;
+    width: 1000px;
+    padding: 5px;
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-top: 5px solid yellow;
+}

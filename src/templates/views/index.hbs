@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html> 
+
+<head>
+<title> WEATHER PAGE</title>
+    <link rel="stylesheet" href="../CSS_FILES/style.css">
+    <link rel="icon" href="../images/weather_icon.jpg">
+    
+    
+</head>
+
+<body>
+    
+    <div>
+      <h1>WEATHER</h1>
+    {{>headers}}
+    <h3>WELCOME IN APPLICATION {{name}}</h3>
+    <h4>THIS APPLICATIN IS CREATED BY {{title}}</h4>
+    <form>
+      <input placeholder="Enter -location">
+      <button>Search</button>
+    </form>
+    <p id="messageOne"></p>
+    <p id="messageTwo"></p>
+    <p id="messageThree"></p>
+    <p id="messageFour"></p>
+    <p id="messageFive"></p>
+    </div>
+    {{>footer}}
+
+    <script src="../java_script/app.js"></script>
+     
+</body>
+
+
+
+</html>
