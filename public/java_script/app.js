@@ -34,7 +34,7 @@ weather_city.addEventListener('submit',(e) => {
     
     
 
-    fetch('http://localhost:3000/weather?search='+location).then((response) => {
+    fetch('/weather?search='+location).then((response) => {
     response.json().then((data) =>{
         if(data.error){
             messageOne.textContent =data.error
