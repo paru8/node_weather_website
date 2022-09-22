@@ -15,7 +15,7 @@ header {
     color: green;
     margin-top: 0px;
     margin-bottom: 60px;
-    background-color: black;
+    background-color:#0000FF;
 
 }
 
@@ -31,7 +31,7 @@ header a {
 }
 
 footer {
-    background: rgb(190, 190, 224);
+    background:#40e0d0;
     color:blanchedalmond;
     width: 1000px;
     padding: 5px;
